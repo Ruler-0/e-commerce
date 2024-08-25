@@ -39,7 +39,12 @@ info:
     name: order-service
     description: This is order service
     
-
+rabbitmq:
+  host: localhost
+  port: 5672
+  username: guest
+  password: guest
+  
 eureka:
   instance:
     hostname: localhost
