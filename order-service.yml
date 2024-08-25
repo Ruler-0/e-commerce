@@ -26,8 +26,9 @@ management:
   info:
     env:
       enabled: true
-  shutdown:
-    enabled: true
+  endpoint:  
+    shutdown:
+      enabled: true
 
 endpoints:
   shutdown:
