@@ -15,3 +15,13 @@ spring:
       hibernate:
         format_sql: true
         highlight_sql: true
+
+eureka:
+  instance:
+    hostname: localhost
+
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+       defaultZone: http://${eureka.instance.hostname}:8761/eureka/
