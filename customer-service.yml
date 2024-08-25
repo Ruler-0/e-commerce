@@ -1,5 +1,5 @@
 build:
-  version: 1.0
+  version: "1.0 - version"
 spring:
   dataSource:
     url: jdbc:mysql://localhost:3306/customer
