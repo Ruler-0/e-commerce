@@ -22,7 +22,7 @@ management:
   endpoints:
     web:
       exposure:
-        enabled: true
+        include: "*"
   info:
     env:
       enabled: true
