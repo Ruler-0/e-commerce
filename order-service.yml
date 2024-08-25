@@ -17,6 +17,27 @@ spring:
       hibernate:
         format_sql: true
         highlight_sql: true
+        
+management:
+  endpoints:
+    web:
+      exposure:
+        enabled: true
+  info:
+    env:
+      enabled: true
+  shutdown:
+    enabled: true
+
+endpoints:
+  shutdown:
+    enabled: true
+
+info: 
+  app:
+    name: order-service
+    description: This is order service
+    
 
 eureka:
   instance:
